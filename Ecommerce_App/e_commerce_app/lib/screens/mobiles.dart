@@ -29,145 +29,164 @@ class mobiles extends StatelessWidget {
                   crossAxisCount: 2,
                 ),
                 children: [
-                  Card(
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Image.asset(
-                            "assets/images/phone.jpg",
-                            scale: 10,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailsphone");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              "assets/images/phone.jpg",
+                              scale: 10,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 13),
-                        Text(
-                          "Phone",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                          SizedBox(height: 13),
+                          Text(
+                            "Phone",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Phone for daily use ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Phone for daily use ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-
-                  Card(
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Image.asset(
-                            "assets/images/phone.jpg",
-                            scale: 10,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailsphone");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              "assets/images/phone.jpg",
+                              scale: 10,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 13),
-                        Text(
-                          "Phone",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                          SizedBox(height: 13),
+                          Text(
+                            "Phone",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Phone for daily use ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Phone for daily use ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-                  Card(
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Image.asset(
-                            "assets/images/phone.jpg",
-                            scale: 10,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailsphone");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              "assets/images/phone.jpg",
+                              scale: 10,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 13),
-                        Text(
-                          "Phone",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                          SizedBox(height: 13),
+                          Text(
+                            "Phone",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Phone for daily use ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Phone for daily use ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-                  Card(
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Image.asset(
-                            "assets/images/phone.jpg",
-                            scale: 10,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailsphone");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              "assets/images/phone.jpg",
+                              scale: 10,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 13),
-                        Text(
-                          "Phone",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                          SizedBox(height: 13),
+                          Text(
+                            "Phone",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Phone for daily use ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Phone for daily use ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ],

@@ -1,3 +1,7 @@
+import 'package:e_commerce_app/screens/LaptopDetails.dart';
+import 'package:e_commerce_app/screens/MobileDetails.dart';
+import 'package:e_commerce_app/screens/SmartWatchDetails%20copy.dart';
+import 'package:e_commerce_app/screens/headphoneDetails.dart';
 import 'package:e_commerce_app/screens/mobiles.dart';
 import 'package:e_commerce_app/screens/laptop.dart';
 import 'package:e_commerce_app/screens/homePage.dart';
@@ -23,6 +27,10 @@ class MyApp extends StatelessWidget {
         "/speaker": (context) => Speakers(),
         "/laptop": (context) => Laptops(),
         "/mobile": (context) => mobiles(),
+        "/detailswatch": (context) => Details_Watch(),
+        "/detailsheadphone": (context) => Details_Headphone(),
+        "/detailsphone": (context) => Details_Mobils(),
+        "/detailslaptop": (context) => Details_Laptop(),
       },
       initialRoute: '/',
     );

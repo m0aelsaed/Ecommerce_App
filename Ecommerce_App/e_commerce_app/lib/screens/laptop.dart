@@ -29,127 +29,144 @@ class Laptops extends StatelessWidget {
                   crossAxisCount: 2,
                 ),
                 children: [
-                  Card(
-                    child: Column(
-                      children: [
-                        Image.asset("assets/images/laptop.jpg", scale: 10),
-                        SizedBox(height: 13),
-                        Text(
-                          "Laptop",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailslaptop");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Image.asset("assets/images/laptop.jpg", scale: 10),
+                          SizedBox(height: 13),
+                          Text(
+                            "Laptop",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Laptop for work and study ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Laptop for work and study ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-
-                  Card(
-                    child: Column(
-                      children: [
-                        Image.asset("assets/images/laptop.jpg", scale: 10),
-                        SizedBox(height: 13),
-                        Text(
-                          "Laptop",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailslaptop");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Image.asset("assets/images/laptop.jpg", scale: 10),
+                          SizedBox(height: 13),
+                          Text(
+                            "Laptop",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Laptop for work and study ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Laptop for work and study ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-
-                  Card(
-                    child: Column(
-                      children: [
-                        Image.asset("assets/images/laptop.jpg", scale: 10),
-                        SizedBox(height: 13),
-                        Text(
-                          "Laptop",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailslaptop");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Image.asset("assets/images/laptop.jpg", scale: 10),
+                          SizedBox(height: 13),
+                          Text(
+                            "Laptop",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Laptop for work and study ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Laptop for work and study ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-
-                  Card(
-                    child: Column(
-                      children: [
-                        Image.asset("assets/images/laptop.jpg", scale: 10),
-                        SizedBox(height: 13),
-                        Text(
-                          "Laptop",
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600,
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/detailslaptop");
+                    },
+                    child: Card(
+                      child: Column(
+                        children: [
+                          Image.asset("assets/images/laptop.jpg", scale: 10),
+                          SizedBox(height: 13),
+                          Text(
+                            "Laptop",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "Laptop for work and study ",
-                          style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w300,
+                          Text(
+                            "Laptop for work and study ",
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w300,
+                            ),
                           ),
-                        ),
-                        Text(
-                          "1200\$",
-                          style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.w900,
-                            color: Colors.red,
+                          Text(
+                            "1200\$",
+                            style: TextStyle(
+                              fontSize: 40,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.red,
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ],

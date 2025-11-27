@@ -184,132 +184,155 @@ class _HomePageState extends State<HomePage> {
                     crossAxisCount: 2,
                   ),
                   children: [
-                    Card(
-                      child: Column(
-                        children: [
-                          Image.asset("assets/images/headphone.jpg", scale: 10),
-                          SizedBox(height: 13),
-                          Text(
-                            "HeadPhone",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                          Text(
-                            "HeadPhone for listen use ",
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w300,
-                            ),
-                          ),
-                          Text(
-                            "200\$",
-                            style: TextStyle(
-                              fontSize: 40,
-                              fontWeight: FontWeight.w900,
-                              color: Colors.red,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Card(
-                      child: Column(
-                        children: [
-                          Image.asset("assets/images/laptop.jpg", scale: 10),
-                          SizedBox(height: 13),
-                          Text(
-                            "Laptop",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                          Text(
-                            "Laptop for work and study ",
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w300,
-                            ),
-                          ),
-                          Text(
-                            "1200\$",
-                            style: TextStyle(
-                              fontSize: 40,
-                              fontWeight: FontWeight.w900,
-                              color: Colors.red,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Card(
-                      child: Column(
-                        children: [
-                          Expanded(
-                            child: Image.asset(
-                              "assets/images/phone.jpg",
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, "/detailsheadphone");
+                      },
+                      child: Card(
+                        child: Column(
+                          children: [
+                            Image.asset(
+                              "assets/images/headphone.jpg",
                               scale: 10,
                             ),
-                          ),
-                          SizedBox(height: 13),
-                          Text(
-                            "Phone",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w600,
+                            SizedBox(height: 13),
+                            Text(
+                              "HeadPhone",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                              ),
                             ),
-                          ),
-                          Text(
-                            "Phone for daily use ",
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w300,
+                            Text(
+                              "HeadPhone for listen use ",
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                              ),
                             ),
-                          ),
-                          Text(
-                            "1200\$",
-                            style: TextStyle(
-                              fontSize: 40,
-                              fontWeight: FontWeight.w900,
-                              color: Colors.red,
+                            Text(
+                              "200\$",
+                              style: TextStyle(
+                                fontSize: 40,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.red,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
-                    Card(
-                      child: Column(
-                        children: [
-                          Image.asset(
-                            "assets/images/smartwatch.jpg",
-                            scale: 10,
-                          ),
-                          SizedBox(height: 13),
-                          Text(
-                            "SmartWatch",
-                            style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w600,
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, "/detailslaptop");
+                      },
+                      child: Card(
+                        child: Column(
+                          children: [
+                            Image.asset("assets/images/laptop.jpg", scale: 10),
+                            SizedBox(height: 13),
+                            Text(
+                              "Laptop",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                              ),
                             ),
-                          ),
-                          Text(
-                            "SmartWatch has a 32hour life time battery",
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w300,
+                            Text(
+                              "Laptop for work and study ",
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                              ),
                             ),
-                          ),
-                          Text(
-                            "100\$",
-                            style: TextStyle(
-                              fontSize: 40,
-                              fontWeight: FontWeight.w900,
-                              color: Colors.red,
+                            Text(
+                              "1200\$",
+                              style: TextStyle(
+                                fontSize: 40,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.red,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, "/detailsphone");
+                      },
+                      child: Card(
+                        child: Column(
+                          children: [
+                            Expanded(
+                              child: Image.asset(
+                                "assets/images/phone.jpg",
+                                scale: 10,
+                              ),
+                            ),
+                            SizedBox(height: 13),
+                            Text(
+                              "Phone",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(
+                              "Phone for daily use ",
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
+                            Text(
+                              "1200\$",
+                              style: TextStyle(
+                                fontSize: 40,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.red,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushNamed(context, "/detailswatch");
+                      },
+                      child: Card(
+                        child: Column(
+                          children: [
+                            Image.asset(
+                              "assets/images/smartwatch.jpg",
+                              scale: 10,
+                            ),
+                            SizedBox(height: 13),
+                            Text(
+                              "SmartWatch",
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            Text(
+                              "SmartWatch has a 32hour life time battery",
+                              style: TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
+                            Text(
+                              "100\$",
+                              style: TextStyle(
+                                fontSize: 40,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.red,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ],
